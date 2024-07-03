@@ -6,10 +6,16 @@
   header{
     background-color: rgb(255, 255, 255);
     color:black;
-    display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 40px;
+}
+.cabeçalho-Lista-item{
+    display: flex;
+}
+.cabeçalho-Lista{
+ 
+
 }
 .agrinho{
     display: inline-block;
@@ -19,16 +25,32 @@
 }
 .agrinho{
 text-align: center;
+font-size: 200%;
 
 
 }
-.agrinho-um{
+.agrinho-texto-um{
+text-align: center;
+font-size: 20px;
+
+
+}
+.agrinho-texto-dois{
 text-align: center;
 font-size: 20px;
 
 }
-.agrinho-dois{
+.agrinho-texto-tres{
 text-align: center;
 font-size: 20px;
 
+}
+.imagem-um{
+    width: 40%;
+}
+.imagem-dois{
+    width: 40%;
+}
+.imagem-tres{
+    width: 40%;
 }
