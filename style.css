@@ -9,13 +9,16 @@
     justify-content: space-around;
     align-items: center;
     padding: 40px;
+   
+
 }
 .cabeçalho-Lista-item{
+    display:block;
+    margin: 0 20px;
+    font-size: 44px;
     display: flex;
-}
-.cabeçalho-Lista{
- 
 
+    
 }
 .agrinho{
     display: inline-block;
@@ -27,22 +30,20 @@
 text-align: center;
 font-size: 200%;
 
-
 }
 .agrinho-texto-um{
 text-align: center;
-font-size: 20px;
-
+font-size: 25px;
 
 }
 .agrinho-texto-dois{
 text-align: center;
-font-size: 20px;
+font-size: 25px;
 
 }
 .agrinho-texto-tres{
 text-align: center;
-font-size: 20px;
+font-size: 25px;
 
 }
 .imagem-um{
@@ -54,3 +55,11 @@ font-size: 20px;
 .imagem-tres{
     width: 40%;
 }
+.cabeçalho{
+   width: 40%;
+
+}
+.cabeçalho-lista{
+    text-align: left;
+}
+
