@@ -4,7 +4,7 @@
 
  }
   header{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(214, 198, 198);
     color:black;
     justify-content: space-around;
     align-items: center;
@@ -14,7 +14,7 @@
 }
 .cabeçalho-Lista-item{
     display:block;
-    margin: 0 20px;
+    margin: 0 200px;
     font-size: 44px;
     display: flex;
 
@@ -56,10 +56,12 @@ font-size: 25px;
     width: 40%;
 }
 .cabeçalho{
-   width: 40%;
+   width: 30%;
 
 }
-.cabeçalho-lista{
-    text-align: left;
+.cabeçalho-Lista{
+   display: inline-block;
+    margin: 0 30px;
+    font-size: 20px;
 }
 
